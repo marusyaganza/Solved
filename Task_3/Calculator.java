@@ -127,7 +127,7 @@ class Output {
     private static final String[] POINT = {"   ", "   ", "   ", "   ", " * ",};
 
     //Symbol for '-'
-    private static final String[] Minus = {"   ", "   ", "***", "   ", "   ",};
+    private static final String[] MINUS = {"   ", "   ", "***", "   ", "   ",};
 
     // method that adds current digit
     private static StringBuilder[] addDigit(StringBuilder[] str, String[] digit) {
@@ -147,7 +147,7 @@ class Output {
         };
         //if result is negative
         if (number.substring(0, 1).equals("-")){
-            addDigit(result, Minus);
+            addDigit(result, MINUS);
             number.delete(0,1);
         }
         for (int i = 0; i < number.length(); i++) {
