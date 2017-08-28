@@ -1,5 +1,6 @@
 /**
- * Created by Mirabilis on 28.08.2017.
+ * Created by marusyaganza on 28.08.2017.
+ *This class is designed to print numbers using '*' and ' ' symbols
  */
 public class Output {
     // Array of constants, holding digits
